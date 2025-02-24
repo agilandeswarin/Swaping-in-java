@@ -1,0 +1,13 @@
+This is the third model that is Divide and Multiply
+
+public class SwapingModel3 {
+    static public void main(String[] args) {
+        int a=10,b=20;
+        a=a*b;   //a*b=200
+        b=a/b;     //a/b=200/20=10
+        a=a/b;         //a/b=20
+        System.out.println("a="+a);
+        System.out.println("b="+b);
+        
+    }
+    }
